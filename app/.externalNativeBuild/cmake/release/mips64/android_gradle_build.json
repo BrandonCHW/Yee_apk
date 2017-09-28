@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "G:/AndroidStudioProjects/Yee/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\BrandonPC\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build G:\\AndroidStudioProjects\\Yee\\app\\.externalNativeBuild\\cmake\\release\\mips64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\BrandonPC\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build G:\\AndroidStudioProjects\\Yee\\app\\.externalNativeBuild\\cmake\\release\\mips64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=C:/Users/BrandonPC/AppData/Local/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/BrandonPC/AppData/Local/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem C:\\Users\\BrandonPC\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\BrandonPC\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem C:\\Users\\BrandonPC\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/Users/BrandonPC/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "G:/AndroidStudioProjects/Yee/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "G:/AndroidStudioProjects/Yee/app/.externalNativeBuild/cmake/release/mips64"
+				}
+			],
+			"output" : "G:/AndroidStudioProjects/Yee/app/build/intermediates/cmake/release/obj/mips64/libnative-lib.so",
+			"toolchain" : "1476121537"
+		}
+	},
+	"toolchains" : 
+	{
+		"1476121537" : 
+		{
+			"cCompilerExecutable" : "C:/Users/BrandonPC/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/BrandonPC/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

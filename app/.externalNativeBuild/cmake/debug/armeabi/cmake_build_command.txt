@@ -1,0 +1,15 @@
+Executable : C:\Users\BrandonPC\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HG:\AndroidStudioProjects\Yee\app
+-BG:\AndroidStudioProjects\Yee\app\.externalNativeBuild\cmake\debug\armeabi
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=armeabi
+-DANDROID_NDK=C:\Users\BrandonPC\AppData\Local\Android\Sdk\ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=G:\AndroidStudioProjects\Yee\app\build\intermediates\cmake\debug\obj\armeabi
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_MAKE_PROGRAM=C:\Users\BrandonPC\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\BrandonPC\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DANDROID_PLATFORM=android-21
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions
+jvmArgs : 
+
